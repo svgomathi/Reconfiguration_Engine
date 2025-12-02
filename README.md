@@ -1,6 +1,7 @@
 # Reconfiguration_Engine- Overview
 
-The emergence of the Edge-Cloud Continuum has transformed network service deployment by enhancing scalability,responsiveness, and resource utilization. Within this paradigm,Service Function Chains (SFCs) play a critical role in fulfilling the
+The emergence of the Edge-Cloud Continuum has transformed network service deployment by enhancing scalability,
+responsiveness, and resource utilization. Within this paradigm,Service Function Chains (SFCs) play a critical role in fulfilling the
 diverse requirements of latency-sensitive and compute-intensive
 applications. However, dynamic conditions, such as fluctuating
 resource availability, variable network service demands, and
@@ -18,8 +19,7 @@ results demonstrate that TS-MAL achieves approximately 51.47%
 reduction in end-to-end service latency and 64.03% reduction
 in energy consumption for onboarded SFCs compared to a
 baseline single-agent Proximal Policy Optimization (PPO) approach.
-Furthermore, TS-MAL ensures 100% [R1Q7]demands service rate
-,associated to onboarded SFC, network service success rate (NSSR),
+Furthermore, TS-MAL ensures 100% demands service rate associated to onboarded SFC
 significantly outperforming the PPO baseline, which achieves an
 average of 56.93%. These findings underscore the effectiveness
 of decentralized multi-agent learning in enabling scalable and
