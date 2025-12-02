@@ -35,12 +35,15 @@ infrastructures.
 
 The main contributions of this research are summarized as follows:
 
-- **Challenge Identification:**  
-  We highlight the complexity of orchestrating Service Function Chains (SFCs) across the edge–cloud continuum under fluctuating network conditions, diverse service demands, and limited computational resources.
-
 - **Two-Stage Multi-Agent RL Framework:**  
-  We propose a two-stage, multi-agent reinforcement learning framework that integrates edge-aware message passing with decentralized decision-making. This enables intelligent, conflict-aware SFC reconfiguration while allowing each SFC agent to operate independently within a shared network environment.
+  A two-stage, multi-agent reinforcement learning framework that integrates edge-aware message passing with decentralized decision-making. This enables intelligent, conflict-aware SFC reconfiguration while allowing each SFC agent to operate independently within a shared network environment.
 
 - **Performance and Evaluation:**  
   Through extensive simulations, we demonstrate significant improvements in system performance, including enhanced energy efficiency, reduced end-to-end service latency, and improved Network Service Success Rate (NSSR) compared to baseline approaches.
+
+# System Architecture
+
+<img width="1245" height="656" alt="SystemDesign10" src="https://github.com/user-attachments/assets/a3475efc-e584-48a2-8c83-3b366983c707" />
+
+
 
