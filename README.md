@@ -45,5 +45,8 @@ The main contributions of this research are summarized as follows:
 
 <img width="1245" height="656" alt="SystemDesign10" src="https://github.com/user-attachments/assets/a3475efc-e584-48a2-8c83-3b366983c707" />
 
+- **Summary**
+Our approach models the network as a graph, where each SFC acts as an independent agent.  
+Using an Edge-Augmented Graph Attention Network (EaGAT), each agent receives a localized view of the network and learns optimal actions through a decentralized Independent PPO framework.
 
 
