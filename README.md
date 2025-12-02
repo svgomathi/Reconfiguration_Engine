@@ -1,7 +1,8 @@
 # Reconfiguration_Engine- Overview
 
-Title: Distributed Multi-Agent Reinforcement Learning Enabled Approach for Optimizing Service Function Chain Reconfiguration in Edge-Cloud Continuum
-Author: Gomathi Srinivasan Venkata
+# Title: Distributed Multi-Agent Reinforcement Learning Enabled Approach for Optimizing Service Function Chain Reconfiguration in Edge-Cloud Continuum
+
+# Author: Gomathi Srinivasan Venkata
 
 # Abstract
 The emergence of the Edge-Cloud Continuum has transformed network service deployment by enhancing scalability,
