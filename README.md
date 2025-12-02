@@ -7,7 +7,7 @@ applications. However, dynamic conditions, such as fluctuating
 resource availability, variable network service demands, and
 stringent Quality of Service (QoS) constraints, pose significant
 challenges to traditional centralized orchestration approaches. This
-paper proposes a Two-Stage Multi-Agent Learning (TS-MAL)
+project proposes a Two-Stage Multi-Agent Learning (TS-MAL)
 framework, a decentralized and intelligent SFC reconfiguration
 solution based on reinforcement learning. TS-MAL is designed to
 orchestrate onboarded SFCs efficiently across the Edge-Cloud Con-
