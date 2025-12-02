@@ -49,4 +49,10 @@ The main contributions of this research are summarized as follows:
 Our approach models the network as a graph, where each SFC acts as an independent agent.  
 Using an Edge-Augmented Graph Attention Network (EaGAT), each agent receives a localized view of the network and learns optimal actions through a decentralized Independent PPO framework.
 
-# 
+# Simulation Environment
+
+A comprehensive simulation environment was set up to evaluate the efficiency of the proposed MAIPPO-EaGAT approach against the baseline algorithm. The simulations were conducted using a Python-based framework.
+
+The experiments were executed in a computational environment configured to support computation-intensive data processing, featuring an AMD Ryzen 7 8700G CPU processor at 4.2 GHz with 8 cores and 16 threads, integrated Radeon 780M graphics, and 128 GB of RAM, with the software stack including PyTorch 2.6.0, PyTorch Geometric 2.6.1, and NetworkX 3.4.2.
+
+<img width="680" height="518" alt="image" src="https://github.com/user-attachments/assets/0b580cba-9fc9-421c-8e82-daf0553e97e6" />
