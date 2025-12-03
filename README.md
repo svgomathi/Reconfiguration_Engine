@@ -46,8 +46,7 @@ We consider the edge-cloud continuum environment, which is composed of edge and 
   - Repeat for multiple episodes.
 - **Summary**
 
-  The approach models the network as a graph, where each SFC acts as an independent agent.  
-Using an Edge-Augmented Graph Attention Network (EaGAT), each agent receives a localized view of the network and learns optimal actions through a decentralized Independent PPO framework.
+  The approach models the network as a graph, where each SFC acts as an independent agent. Using an Edge-Augmented Graph Attention Network (EaGAT), each agent receives a localized view of the network and learns optimal actions through a decentralized Independent PPO framework.
 
 
 # Simulation Environment
