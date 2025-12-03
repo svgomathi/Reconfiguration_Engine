@@ -2,7 +2,12 @@
 
 # Title: Distributed Multi-Agent Reinforcement Learning Enabled Approach for Optimizing Service Function Chain Reconfiguration in Edge-Cloud Continuum
 
-# Author: Gomathi Srinivasan Venkata
+# Author and Affiliation
+**Gomathi Srinivasan Venkata**  
+Graduate Institute of Artificial Intelligence, Chang Gung University,Taiwan
+
+**Advisor:** Dr. Hojjat Baghban (Assistant Professor)  
+Intelligent Cyber-Physical System Laboratory 
 
 # Abstract
 The emergence of the Edge-Cloud Continuum has transformed network service deployment by enhancing scalability,
@@ -47,15 +52,27 @@ The main contributions of this research are summarized as follows:
 
 
 - **Summary**
- We consider the edge-cloud continuum environment, which is composed of edge and centralized cloud servers. These resources collaboratively host network services, and the onboarded network services receive a set of incoming demands.
+
+We consider the edge-cloud continuum environment, which is composed of edge and centralized cloud servers. These resources collaboratively host network services, and the onboarded network services receive a set of incoming demands.
 
 # System Model
 
 <img width="1245" height="656" alt="SystemDesign10" src="https://github.com/user-attachments/assets/a3475efc-e584-48a2-8c83-3b366983c707" />
 
+- **High-Level Workflow**
+  -  Load network topology (edge + cloud nodes).
+  - Generate service demands for each onboarded SFC.
+  - Convert topology and SFC state into localized graphs.
+  - EaGAT encodes node + edge features.
+  - Independent PPO agents infer actions (deploy, scale, migrate, queue).
+  - Environment updates latency and energy.
+  - Rewards recorded and used for learning.
+  - Repeat for multiple episodes.
 - **Summary**
+
   The approach models the network as a graph, where each SFC acts as an independent agent.  
 Using an Edge-Augmented Graph Attention Network (EaGAT), each agent receives a localized view of the network and learns optimal actions through a decentralized Independent PPO framework.
+
 
 # Simulation Environment
 
@@ -67,4 +84,15 @@ The experiments were executed in a computational environment configured to suppo
 
 # Evaluation
 
+The Network Service Success Rate (NSSR) reflects the proportion of service demands successfully processed by the system.
+The proposed TS-MAL framework consistently achieves 100% NSSR across all SFCs and all demand levels, significantly outperforming the baseline Single-Agent PPO, which struggles under higher demand.
+
+- **NSSR Comparison Between TS-MAL and Baseline PPO**
+<img width="1920" height="967" alt="NSSR_pattern" src="https://github.com/user-attachments/assets/813ac157-6aee-4efb-bc18-104eedb5b242" />
+
+*Note: Detailed evaluation metrics such as latency, energy, and convergence behavior are included in the academic manuscript (currently under review). Only the high-level NSSR results are shown here.*
+
+# Repository Status
+This repository provides a high-level overview of the research project.
+The full source code is kept private until the associated academic paper is published.
 
