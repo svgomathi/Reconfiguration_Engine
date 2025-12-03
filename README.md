@@ -17,7 +17,7 @@ The emergence of the Edge-Cloud Continuum has transformed network service deploy
 The main contributions of this research are summarized as follows:
 
 - **Two-Stage Multi-Agent RL Framework:**  
-  A two-stage, multi-agent reinforcement learning framework that integrates edge-aware message passing with decentralized decision-making. This enables intelligent, conflict-aware SFC reconfiguration while allowing each SFC agent to operate independently within a shared network environment.
+  A two-stage, multi-agent reinforcement learning framework that integrates Multi-Agent Independent Proximal Policy Optimization with Edge-augmented Graph Attention Networks. Modeled the SFC Reconfiguration problem as a Partially Observable Markov Game (POMG).This enables intelligent, conflict-aware SFC reconfiguration while allowing each SFC agent to operate independently within a shared network environment.
 
 - **Performance and Evaluation:**  
   Through extensive simulations, we demonstrate significant improvements in system performance, including enhanced energy efficiency, reduced end-to-end service latency, and improved Network Service Success Rate (NSSR) compared to baseline approaches.
