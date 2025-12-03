@@ -41,12 +41,20 @@ The main contributions of this research are summarized as follows:
 - **Performance and Evaluation:**  
   Through extensive simulations, we demonstrate significant improvements in system performance, including enhanced energy efficiency, reduced end-to-end service latency, and improved Network Service Success Rate (NSSR) compared to baseline approaches.
 
-# System Architecture
+# Two-Tier Edge–Cloud Architecture:
+
+<img width="1280" height="720" alt="SystemModel19" src="https://github.com/user-attachments/assets/bbbfc769-4b0d-45f6-b14c-9a64d544c48e" />
+
+
+- **Summary**
+ We consider the edge-cloud continuum environment, which is composed of edge and centralized cloud servers. These resources collaboratively host network services, and the onboarded network services receive a set of incoming demands.
+
+# System Model
 
 <img width="1245" height="656" alt="SystemDesign10" src="https://github.com/user-attachments/assets/a3475efc-e584-48a2-8c83-3b366983c707" />
 
 - **Summary**
-Our approach models the network as a graph, where each SFC acts as an independent agent.  
+  The approach models the network as a graph, where each SFC acts as an independent agent.  
 Using an Edge-Augmented Graph Attention Network (EaGAT), each agent receives a localized view of the network and learns optimal actions through a decentralized Independent PPO framework.
 
 # Simulation Environment
@@ -56,3 +64,7 @@ A comprehensive simulation environment was set up to evaluate the efficiency of 
 The experiments were executed in a computational environment configured to support computation-intensive data processing, featuring an AMD Ryzen 7 8700G CPU processor at 4.2 GHz with 8 cores and 16 threads, integrated Radeon 780M graphics, and 128 GB of RAM, with the software stack including PyTorch 2.6.0, PyTorch Geometric 2.6.1, and NetworkX 3.4.2.
 
 <img width="680" height="518" alt="image" src="https://github.com/user-attachments/assets/0b580cba-9fc9-421c-8e82-daf0553e97e6" />
+
+# Evaluation
+
+
